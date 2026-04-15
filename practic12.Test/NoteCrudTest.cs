@@ -5,12 +5,6 @@ using practic12;
 namespace practic12.Test;
 
 
-
-[CollectionDefinition("NonParallel", DisableParallelization = true)]
-public class NonParallelCollectionDefinition { }
-
-
-[Collection("NonParallel")]
 public class NoteCrudTests 
 {
     private DataContext _db;
