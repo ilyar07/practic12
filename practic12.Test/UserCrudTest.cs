@@ -5,8 +5,6 @@ using practic12;
 namespace practic12.Test;
 
 
-
-[Collection("NonParallel")]
 public class UserCrudTests
 {
     private DataContext _db;
